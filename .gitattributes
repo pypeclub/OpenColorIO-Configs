@@ -1,0 +1,2 @@
+*.spi3d filter=lfs diff=lfs merge=lfs -text
+*.spi1d filter=lfs diff=lfs merge=lfs -text
