@@ -1,13 +1,10 @@
 [tool.poetry]
-version = "1.0.0"
+version = "1.0.1"
 name = "OpenColorIO-Configs"
 description = "Curated set of OpenColorIO Configs for use in OpenPype"
 readme = "README.md"
-authors = [
-    { name = "OpenPype Team", email ="info@openpype.io" },
-]
-license = { file = "LICENSE" }
-requires-python = ">=2.7"
+authors = ["OpenPype Team <info@openpype.io>"]
+license = "MIT License"
 keywords = ["environment", "pipeline", "color"]
 
 classifiers = [
