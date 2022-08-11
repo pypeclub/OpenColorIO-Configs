@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 version = "1.0.0"
 name = "OpenColorIO-Configs"
 description = "Curated set of OpenColorIO Configs for use in OpenPype"
@@ -16,12 +16,13 @@ classifiers = [
   "Intended Audience :: Developers"
 ]
 
-
-[project.urls]
 homepage = "https://github.com/pypeclub/OpenColorIO-Configs"
 repository = "https://github.com/pypeclub/OpenColorIO-Configs"
 documentation = "https://github.com/pypeclub/OpenColorIO-Configs"
 
+packages = [{ include = "aces_1.2" }]
+
+
 [build-system]
-requires = ["setuptools >= 35.0.2", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
