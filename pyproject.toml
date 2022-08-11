@@ -16,7 +16,7 @@ classifiers = [
 homepage = "https://github.com/pypeclub/OpenColorIO-Configs"
 repository = "https://github.com/pypeclub/OpenColorIO-Configs"
 documentation = "https://github.com/pypeclub/OpenColorIO-Configs"
-packages = [{ include = "OpenColorIO-Config" }]
+packages = [{ include = "OpenColorIO-Configs" }]
 
 
 [build-system]
