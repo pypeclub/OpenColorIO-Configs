@@ -16,6 +16,8 @@ classifiers = [
 homepage = "https://github.com/pypeclub/OpenColorIO-Configs"
 repository = "https://github.com/pypeclub/OpenColorIO-Configs"
 documentation = "https://github.com/pypeclub/OpenColorIO-Configs"
+packages = [{ include = "OpenColorIO-Config" }]
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
