@@ -1,5 +1,5 @@
 [tool.poetry]
-version = "1.0.1"
+version = "1.0.2"
 name = "OpenColorIO-Configs"
 description = "Curated set of OpenColorIO Configs for use in OpenPype"
 readme = "README.md"
@@ -16,9 +16,6 @@ classifiers = [
 homepage = "https://github.com/pypeclub/OpenColorIO-Configs"
 repository = "https://github.com/pypeclub/OpenColorIO-Configs"
 documentation = "https://github.com/pypeclub/OpenColorIO-Configs"
-
-packages = [{ include = "aces_1.2" }]
-
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
