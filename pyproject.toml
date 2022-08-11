@@ -16,7 +16,6 @@ classifiers = [
   "Intended Audience :: Developers"
 ]
 
-[tool.poetry]
 
 [project.urls]
 homepage = "https://github.com/pypeclub/OpenColorIO-Configs"
